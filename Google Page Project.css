@@ -1,0 +1,81 @@
+<style media = "screen">
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    min-width: 400px;
+}
+.center1 {
+ align-items : center;
+ display : flex;
+ padding : right 6px;
+ background-color: white;
+}
+.Logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:109px;
+}
+.site-search{
+    appearance: textfield;
+    text-align: start;
+    letter-spacing: normal;
+    cursor: text;
+    font-weight: 400
+    margin: -37px
+
+}
+
+
+
+
+
+
+.about{
+    display:flex;
+    justify-content: flex-start;
+    color:#222222;
+    font: 14px arial, sans-serif;
+    margin: 0px 5px 0px 15px;
+    padding:5px;
+}
+.store{
+    display:flex;
+    justify-content: flex-start;
+    color:#222222;
+    font: 14px arial, sans-serif;
+    margin: 0px 5px 0px 15px;
+    padding:5px;
+}
+.Gmail{
+    display: flex;
+    justify-content:flex-around;
+    color:#000000DE;
+    font: 13px arial, sans-serif;
+    padding: 20px;
+}
+.images{
+    display: flex;
+    justify-content: flex-around;
+    color:#000000DE;
+    font: 13px arial, sans-serif;
+    padding: 20px;
+}
+
+.font-sample {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+.footer-left {
+    display:flex;
+    justify-content: flex-start;
+}
+.footer-right {
+    display: flex;
+    justify-content:flex-end;
+}
